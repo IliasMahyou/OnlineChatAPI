@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "OnlineChat.Controllers.MessagesController",
+    "Method": "Send",
+    "RelativePath": "Messages/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "OnlineChat.Models.MessagesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineChat.Controllers.UsersController",
+    "Method": "Authenticate",
+    "RelativePath": "Users/authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userService",
+        "Type": "OnlineChat.Models.UsersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineChat.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userService",
+        "Type": "OnlineChat.Services.IUserService",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

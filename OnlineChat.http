@@ -1,0 +1,8 @@
+@OnlineChat_HostAddress = http://localhost:5285
+
+GET {{OnlineChat_HostAddress}}/index.html
+Accept: text/html
+
+###
+
+
