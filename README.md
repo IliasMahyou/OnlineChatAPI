@@ -1,1 +1,1 @@
-Small API in develoment by me
+Small API in development by me
