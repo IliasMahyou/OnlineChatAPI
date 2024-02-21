@@ -21,10 +21,24 @@ namespace OnlineChat.Controllers
             return Ok(userService);
         }
 
+
         [HttpPost("authenticate")]
-        public IActionResult Authenticate(UsersDto userService)
+        public async Task<IActionResult> Authenticate([FromBody] LoginRequest loginRequest)
         {
-            return Ok(userService);
+            var user = await _userService.AuthenticateUsersAsync(loginRequest.UserName, loginRequest.Password);
+
+            if (user != null)
+            {
+                // Authentication successful
+                // Generate a JWT token or any other form of token if necessary
+                // and return the appropriate data and status code
+                return Ok(new { message = "Authentication successful", user });
+            }
+            else
+            {
+                // Authentication failed
+                return Unauthorized(new { message = "Username or password is incorrect" });
+            }
         }
     }
 }
