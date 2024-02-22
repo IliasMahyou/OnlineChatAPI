@@ -7,9 +7,9 @@ public class MockData
     {
         return new List<Users>
         {
-            new Users { UserId = 1, UserName = "AliceSmith", EmailAddress = "alice@example.com" },
-            new Users { UserId = 2, UserName = "BobJones", EmailAddress = "bob@example.com" },
-            new Users { UserId = 3, UserName = "CharlieBrown", EmailAddress = "charlie@example.com" },
+            new Users { UserId = 1, Username = "AliceSmith", EmailAddress = "alice@example.com" },
+            new Users { UserId = 2, Username = "BobJones", EmailAddress = "bob@example.com" },
+            new Users { UserId = 3, Username = "CharlieBrown", EmailAddress = "charlie@example.com" },
             
         };
     }

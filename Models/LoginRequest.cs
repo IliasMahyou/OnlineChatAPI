@@ -1,8 +1,12 @@
-﻿namespace OnlineChat.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace OnlineChat.Models
 {
     public class LoginRequest
     {
-        public string UserName { get; set; }   
+        [Required]
+        public string Username { get; set; }
+        [Required]
         public string Password { get; set; }
     }
 }

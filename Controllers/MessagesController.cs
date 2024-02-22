@@ -14,7 +14,7 @@ namespace OnlineChat.Controllers
             this.messageService = messageService;
         }
         [HttpPost("send")]
-        public IActionResult Send([FromBody] MessagesDto message) 
+        public IActionResult Send([FromBody] IMessageService message) 
         {
             return Ok(message);
         }

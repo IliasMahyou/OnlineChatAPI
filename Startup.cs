@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models; // Add this using directive
+using Microsoft.OpenApi.Models;
+using OnlineChat.Services; // Add this using directive
 
 namespace OnlineChat
 {
@@ -19,12 +20,25 @@ namespace OnlineChat
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IUserService, UserService>();
             services.AddDbContext<OnlineChatContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"),
+                ServerVersion.AutoDetect(Configuration.GetConnectionString("DefaultConnection"))));
+
 
             services.AddControllers();
 
-            
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "OnlineChat API", Version = "v1" });
@@ -42,21 +56,19 @@ namespace OnlineChat
                 app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
-
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseRouting();
 
             app.UseAuthorization();
 
-            // Enable middleware to serve generated Swagger as a JSON endpoint
+            
             app.UseSwagger();
 
-            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.)
-            // specifying the Swagger JSON endpoint
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "OnlineChat API V1");
-                c.RoutePrefix = string.Empty; // To serve the Swagger UI at the app's root (https://localhost:5001/), set the RoutePrefix property to an empty string
+                c.RoutePrefix = string.Empty; 
             });
 
             app.UseEndpoints(endpoints =>

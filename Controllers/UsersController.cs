@@ -16,27 +16,33 @@ namespace OnlineChat.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register(IUserService userService)
+        public async Task<IActionResult> Register([FromBody] RegisterUser registerUser)
         {
-            return Ok(userService);
+            bool success = await _userService.RegisterUserAync(registerUser.Username, registerUser.Password, registerUser.Email);
+            if (success)
+            {
+                return Ok(new { message = "Successful registration" });
+            }
+            else
+            {
+                return BadRequest(new { message = "Registration failed" });
+            }
         }
+
+
 
 
         [HttpPost("authenticate")]
         public async Task<IActionResult> Authenticate([FromBody] LoginRequest loginRequest)
         {
-            var user = await _userService.AuthenticateUsersAsync(loginRequest.UserName, loginRequest.Password);
+            var user = await _userService.AuthenticateUsersAsync(loginRequest.Username, loginRequest.Password);
 
             if (user != null)
             {
-                // Authentication successful
-                // Generate a JWT token or any other form of token if necessary
-                // and return the appropriate data and status code
                 return Ok(new { message = "Authentication successful", user });
             }
             else
-            {
-                // Authentication failed
+            {               
                 return Unauthorized(new { message = "Username or password is incorrect" });
             }
         }

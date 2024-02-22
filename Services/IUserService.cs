@@ -6,6 +6,6 @@ namespace OnlineChat.Services
     public interface IUserService
     {
         Task<Users>AuthenticateUsersAsync(string username, string password);
-        Task RegisterUserAync(string username, string password, string email);
+        Task<bool> RegisterUserAync(string username, string password, string email);
     }
 }

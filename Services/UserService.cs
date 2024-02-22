@@ -17,7 +17,7 @@ namespace OnlineChat.Services
         public async Task<Users> AuthenticateUsersAsync(string username, string password)
         {
             var user = await _context.Users
-                                     .FirstOrDefaultAsync(u => u.UserName.ToLower() == username.ToLower());
+                                     .FirstOrDefaultAsync(u => u.Username.ToLower() == username.ToLower());
 
             if (user != null && BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
             {
@@ -31,18 +31,26 @@ namespace OnlineChat.Services
             }
         }
 
-        public async Task RegisterUserAync(string username, string password, string email)
+        public async Task<bool> RegisterUserAync(string username, string password, string email)
         {
             string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
             Users user = new Users
             {
-                UserName = username,
+                Username = username,
                 PasswordHash = passwordHash,
                 EmailAddress = email
             };
             _context.Users.Add(user);
 
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.SaveChangesAsync();
+                return true;
+            }catch
+            {
+                return false;
+            }
+            
 
 
         }
