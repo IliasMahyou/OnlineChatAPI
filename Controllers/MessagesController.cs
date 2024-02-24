@@ -14,9 +14,14 @@ namespace OnlineChat.Controllers
             this.messageService = messageService;
         }
         [HttpPost("send")]
-        public IActionResult Send([FromBody] IMessageService message) 
+        public async IActionResult Send([FromBody] Messages message) 
         {
-            return Ok(message);
+            var newMessage = await  messageService.SendMessageAsync(message.SenderID,message.ReceiverID,message.EncryptedContent);
+            if(newMessage.SenderID != null && newMessage.EncryptedContent != null && newMessage.ReceiverID != null)
+            {
+                return Ok(newMessage);
+            }    
+            return BadRequest();
         }
 
     }

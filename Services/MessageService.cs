@@ -18,7 +18,7 @@ namespace OnlineChat.Services
             
         }
 
-        public async Task SendMessageAsync(int senderID, int receiverID, string encryptedContent)
+        public async Task<Messages> SendMessageAsync(int senderID, int receiverID, string encryptedContent)
         {
             var message = new Messages
             {
@@ -30,6 +30,7 @@ namespace OnlineChat.Services
 
             _context.Messages.Add(message);
             await _context.SaveChangesAsync();
+            return message;
         }
 
     }

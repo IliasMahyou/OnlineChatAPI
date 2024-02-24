@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +11,60 @@
       "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\models\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:models\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\onlinechat.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:onlinechat.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\data\\onlinechatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:data\\onlinechatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\data\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:data\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,52 +83,12 @@
       "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:onlinechat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\onlinechat.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:onlinechat.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\data\\onlinechatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:data\\onlinechatcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\data\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:data\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\models\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:models\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|c:\\users\\ilias\\documents\\programmeerfolderc#\\onlinechatapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{448422AD-A8DF-4316-A0A8-FC475B2D4040}|OnlineChat.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\7.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -107,15 +107,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 14,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
@@ -123,12 +119,11 @@
               "RelativeToolTip": "Models\\LoginRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T17:51:17.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T17:51:17.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "RegisterUser.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Models\\RegisterUser.cs",
               "RelativeDocumentMoniker": "Models\\RegisterUser.cs",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "Models\\RegisterUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T17:50:05.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T17:50:05.974Z"
             },
             {
               "$type": "Document",
@@ -149,12 +143,11 @@
               "RelativeToolTip": "Data\\MockData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T13:44:36.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T13:44:36.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-19T02:00:32.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T02:00:32.184Z"
             },
             {
               "$type": "Document",
@@ -175,38 +167,35 @@
               "RelativeToolTip": "OnlineChat.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-02-19T01:46:48.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T01:46:48.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MessagesController.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Controllers\\MessagesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MessagesController.cs",
               "ToolTip": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Controllers\\MessagesController.cs",
               "RelativeToolTip": "Controllers\\MessagesController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAswBQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T00:50:50.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T00:50:50.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAiwDIAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T00:34:26.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T00:34:26.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -214,12 +203,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:54:54.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T13:54:54.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
@@ -227,8 +215,7 @@
               "RelativeToolTip": "Startup.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAgwBkAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:54:03.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T13:54:03.565Z"
             },
             {
               "$type": "Document",
@@ -240,12 +227,11 @@
               "RelativeToolTip": "Data\\OnlineChatContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:49:58.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T13:49:58.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -253,12 +239,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-18T13:41:03.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T13:41:03.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -266,12 +251,11 @@
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:24:21.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T13:24:21.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 11,
               "Title": "MessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Repositories\\MessageRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MessageRepository.cs",
@@ -289,27 +273,26 @@
               "RelativeDocumentMoniker": "Services\\UserService.cs",
               "ToolTip": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA2wDAAAAASAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:22:33.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T13:22:33.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MessageService.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Services\\MessageService.cs",
               "RelativeDocumentMoniker": "Services\\MessageService.cs",
               "ToolTip": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Services\\MessageService.cs",
               "RelativeToolTip": "Services\\MessageService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAgAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-18T13:21:26.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 13,
               "Title": "IMessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Repositories\\IMessageRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IMessageRepository.cs",
@@ -321,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
@@ -333,20 +316,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Services\\IMessageService.cs",
               "RelativeDocumentMoniker": "Services\\IMessageService.cs",
               "ToolTip": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Services\\IMessageService.cs",
               "RelativeToolTip": "Services\\IMessageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-15T23:37:10.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
@@ -354,25 +337,24 @@
               "RelativeToolTip": "Services\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T14:43:56.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T14:43:56.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
               "Title": "Messages.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Models\\Messages.cs",
               "RelativeDocumentMoniker": "Models\\Messages.cs",
               "ToolTip": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Models\\Messages.cs",
               "RelativeToolTip": "Models\\Messages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-15T14:03:14.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Models\\Users.cs",
@@ -380,8 +362,7 @@
               "RelativeToolTip": "Models\\Users.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T13:59:26.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T13:59:26.297Z"
             },
             {
               "$type": "Document",
@@ -407,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "OnlineChat.csproj",
               "DocumentMoniker": "C:\\Users\\Ilias\\Documents\\ProgrammeerFolderC#\\OnlineChatAPI\\OnlineChat.csproj",
               "RelativeDocumentMoniker": "OnlineChat.csproj",
@@ -415,8 +396,7 @@
               "RelativeToolTip": "OnlineChat.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-14T23:23:57.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-14T23:23:57.243Z"
             },
             {
               "$type": "Document",
@@ -428,6 +408,10 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2024-02-14T23:23:57.277Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
