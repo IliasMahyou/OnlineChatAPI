@@ -14,7 +14,7 @@ namespace OnlineChat.Controllers
             this.messageService = messageService;
         }
         [HttpPost("send")]
-        public async IActionResult Send([FromBody] Messages message) 
+        public async Task<IActionResult> Send([FromBody] Messages message) 
         {
             var newMessage = await  messageService.SendMessageAsync(message.SenderID,message.ReceiverID,message.EncryptedContent);
             if(newMessage.SenderID != null && newMessage.EncryptedContent != null && newMessage.ReceiverID != null)
