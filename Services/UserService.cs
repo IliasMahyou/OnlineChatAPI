@@ -34,6 +34,13 @@ namespace OnlineChat.Services
         public async Task<bool> RegisterUserAync(string username, string password, string email)
         {
             string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
+            foreach(Users users in _context.Users)
+            {
+                if(users.Username.ToLower() == username.ToLower() || users.EmailAddress.ToLower() == email)
+                {
+                    return false;
+                }
+            }
             Users user = new Users
             {
                 Username = username,
